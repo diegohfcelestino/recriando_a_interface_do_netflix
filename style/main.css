@@ -24,12 +24,19 @@ header .container{
     justify-content: space-between;
 }
 
+header .container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header .logo{
     margin-left: 5px;
     color: var(--vermelha);
-    font-family: 'Arial black', times;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 40px;
-    font-style: initial;
+    
 }
 
 header nav a{
@@ -41,6 +48,10 @@ header nav a{
 
 header nav a:hover{
     color:#fff; 
+}
+
+.botao2{
+    text-decoration: none;
 }
 
 
@@ -108,10 +119,26 @@ header nav a:hover{
     display: block;
 }
 
-
-.carrosel-filmes{
-    margin-top: 5px;
+.box-filme2{
+    max-width: 120%;
+    max-height: 200px;
+    height: 100%;
+    width: 100%;
+    display: block;
 }
 
 
+
+.carrosel-filmes{
+    margin: 0% 0% 0% 3%; 
+    
+}
+
+.minha_lista{
+    margin: 0% 0% 0% 3%; 
+}
+
+.lista{
+    margin: 2% 0% 1% 3%;
+}
 
