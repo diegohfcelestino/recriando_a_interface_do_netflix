@@ -21,7 +21,7 @@ header .container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content:first baseline;
 }
 
 header .container2{
@@ -31,13 +31,17 @@ header .container2{
     justify-content: space-between;
 }
 
+.mini {
+    margin-left: 50px;
+}
+
 header .logo{
     margin-left: 5px;
     color: var(--vermelha);
     font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size: 40px;
-    
+    font-size: 35px;   
 }
+
 
 header nav a{
     text-decoration: none;
@@ -53,6 +57,7 @@ header nav a:hover{
 .botao2{
     text-decoration: none;
 }
+
 
 
 /*filme principal*/
@@ -94,6 +99,77 @@ header nav a:hover{
 
     cursor: pointer;
     transition: .3s ease all;
+}
+
+.botao3{
+    background-color: var(--preta);
+    border: none;
+    color: white;
+    font-size: 120%;
+    margin: 0% 0% 0% 2500%;
+}
+.botao4{
+    background-color: var(--preta);
+    border: none;
+    color: white;
+    font-size: 120%;
+    margin: 0% 0% 0% 2900%;
+}
+
+.botao5{
+    background-color: var(--preta);
+    border: none;
+    color: white;
+    font-size: 120%;
+    margin: 0% 0% 0% 3500%;
+}
+
+.botao6{
+    background-color: rgba(0,0,0,50%);
+    border: none;
+    color: rgba(218, 91, 18, 0.932);
+    font-size: 120%;
+    margin: 0% 0% 0% 2850%;
+}
+
+.social-link {
+    background-color: none;
+    color: grey;
+    font-size: 220%;
+    margin-left: 30px;
+}
+ 
+.member-footer-links {
+    padding:0px;
+    margin:0px;
+    float: left;
+    width: 100%;
+    background-color: none;
+    list-style:none;
+    font:80% Tahoma;
+}
+
+.member-footer-links li { 
+    display: inline;
+}
+
+.member-footer-links li a {
+    background-color: none;
+    color:white;
+    text-decoration: none;
+    border-bottom: none;
+    padding: 10px 10px;
+    float:left;
+    margin: 20px;
+}
+
+.member-footer-links li a:hover {
+    background-color:none;
+    color: #6D6D6D;
+}
+
+.infantil{
+    margin: 0% 0% 0% 730%;
 }
 
 .botao:hover{
@@ -141,4 +217,8 @@ header nav a:hover{
 .lista{
     margin: 2% 0% 1% 3%;
 }
+
+
+
+
 
